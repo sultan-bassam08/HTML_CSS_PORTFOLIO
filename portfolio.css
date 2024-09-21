@@ -10,8 +10,12 @@ body {
   
   /* Navigation Bar */
   header {
-    background: url(/original_project_portfolio/mercedes.png) center/cover no-repeat ;
+    
     color: #fff;
+    background-image: url(./original_project_portfolio/mercedes.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 45px;
     height: fit-content; 
   }
